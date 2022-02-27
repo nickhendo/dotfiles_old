@@ -620,6 +620,8 @@
 		<dict>
 			<key>ASCII Anti Aliased</key>
 			<true/>
+			<key>ASCII Ligatures</key>
+			<false/>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -779,10 +781,14 @@
 			</dict>
 			<key>Background Image Location</key>
 			<string></string>
+			<key>Blink Allowed</key>
+			<false/>
 			<key>Blinking Cursor</key>
-			<false/>
+			<true/>
 			<key>Blur</key>
-			<false/>
+			<true/>
+			<key>Blur Radius</key>
+			<real>9.1204504134807109</real>
 			<key>Bold Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -820,6 +826,8 @@
 				<key>Red Component</key>
 				<real>1</real>
 			</dict>
+			<key>Cursor Type</key>
+			<integer>1</integer>
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
@@ -1144,11 +1152,13 @@
 			<key>Name</key>
 			<string>Main</string>
 			<key>Non Ascii Font</key>
-			<string>Monaco 12</string>
+			<string>HackNerdFontCompleteM-Regular 12</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>FiraCodeRoman-Regular 12</string>
+			<string>FiraCodeRoman-Bold 12</string>
+			<key>Only The Default BG Color Uses Transparency</key>
+			<false/>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -1191,8 +1201,10 @@
 			<array/>
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
+			<key>Thin Strokes</key>
+			<integer>4</integer>
 			<key>Transparency</key>
-			<real>0.0</real>
+			<real>0.41195048880069818</real>
 			<key>Unlimited Scrollback</key>
 			<false/>
 			<key>Use Bold Font</key>
@@ -1252,6 +1264,12 @@
 	<true/>
 	<key>SoundForEsc</key>
 	<false/>
+	<key>StatusBarPosition</key>
+	<integer>0</integer>
+	<key>TabStyleWithAutomaticOption</key>
+	<integer>1</integer>
+	<key>TabViewType</key>
+	<integer>0</integer>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>kCPKSelectionViewPreferredModeKey</key>
