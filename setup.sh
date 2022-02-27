@@ -1,13 +1,6 @@
 #!/bin/zsh
 
-echo "Installing required Nerd Fonts"
-brew tap homebrew/cask-fonts
-brew install font-fira-code --cask
-
-echo "Don't forget to set 'fira' as the iTerm font for the Main profile'
-
-echo "Installing Starship"
-brew install starship
+brew bundle
 
 echo "Changing git red color to one better suited for dark backgrounds"
 git config --global color.branch.remote "red bold"
@@ -28,3 +21,4 @@ echo "Creating VimRC link"
 rm ~/.vimrc
 ln vimrc ~/.vimrc
 
+echo "Setup complete. Ensure iTerm is configured to pull preferences from this repo"
