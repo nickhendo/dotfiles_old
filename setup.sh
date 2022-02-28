@@ -9,16 +9,16 @@ git config --global color.status.changed "red bold"
 
 echo "Creating Starship config link"
 mkdir -p ~/.config
-rm ~/.config/starship.toml
+rm -f ~/.config/starship.toml
 ln starship.toml ~/.config/starship.toml
 
 echo "Creating ZSH link"
-rm ~/.zshrc
+rm -f ~/.zshrc
 ln zshrc ~/.zshrc
 zsh
 
 echo "Creating VimRC link"
-rm ~/.vimrc
+rm -f ~/.vimrc
 ln vimrc ~/.vimrc
 
 echo "Setup complete. Ensure iTerm is configured to pull preferences from this repo"
